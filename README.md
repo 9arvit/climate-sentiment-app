@@ -9,7 +9,7 @@ A machine learning-powered Flask web app that predicts the sentiment (Positive o
 ## 🚀 Live Demo
 
 👉 [Click here to try the app](https://climate-sentiment-app.onrender.com)  
-*(Replace with your actual Render URL after deployment)*
+
 
 ---
 
