@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+    <title>Climate Sentiment Analysis</title>
+</head>
+<body>
+    <h2>Climate Change Sentiment Predictor</h2>
+    <form action="/predict" method="post">
+        <textarea name="comment" rows="4" cols="50" placeholder="Enter your climate-related comment here..."></textarea><br><br>
+        <input type="submit" value="Predict Sentiment">
+    </form>
+    {% if result %}
+    <h3>Comment: "{{ comment }}"</h3>
+    <h3>Predicted Sentiment: {{ result }}</h3>
+    {% endif %}
+</body>
+</html>
